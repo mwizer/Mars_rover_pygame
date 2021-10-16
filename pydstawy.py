@@ -1,7 +1,6 @@
 def funkcja(a, b):
     print(a ** b)  # wypisuje a do potęgi b
 
-
 def polacz_slowo(s1, s2):
     return s1 + s2
 
@@ -21,13 +20,13 @@ lista = [4, "koza", 17, 321]  # zwykła lista
 lista.append("mango")  # dodanie na koniec listy
 lista.pop()  # usunięcie ostatniej wartości
 lista.pop(2)  # usunięcie wartości z podanego indesku
-lista.remove("koza") # usunięcie wartości z listy
+lista.remove("koza")  # usunięcie wartości z listy
 
 print(lista)
 
 slownik = {"ssak": "delfin", "gad": "jaszczurki"}
-slownik['płazy'] = "żaba" # dodanie nowego klucza z wartością
-slownik['ssak'] = "Pepe Pan dziobak" # nadpisanie wartości dla klucza ssak, inną wartością
+slownik['płazy'] = "żaba"  # dodanie nowego klucza z wartością
+slownik['ssak'] = "Pepe Pan dziobak"  # nadpisanie wartości dla klucza ssak, inną wartością
 print(slownik['płazy'])
 print(slownik)
 
@@ -47,13 +46,11 @@ if 4 < 17:
     else:
         print('Nie ma cos')
 
-
-
 # ~~~~~~ pętle while i for
 
 stan = True
 i = 0
-while stan: # pętla while wykonuje się tak długo, jak przyjmuje prawdę
+while stan:  # pętla while wykonuje się tak długo, jak przyjmuje prawdę
     i += 1
     print(i)
     if i == 10:
@@ -62,23 +59,21 @@ while stan: # pętla while wykonuje się tak długo, jak przyjmuje prawdę
 
 literki = ['a', 'b', 'c']
 
-for i in literki: # pętla for przyjmuje kolejne wartości w podanej liście
+for i in literki:  # pętla for przyjmuje kolejne wartości w podanej liście
     print(i)
 
-for i in range(5, 10): # pętla for z otworzeniem listy liczb od 5 do 10
+for i in range(5, 10):  # pętla for z otworzeniem listy liczb od 5 do 10
     print(i)
-
 
 # przykłady funkcji
 
 a, b = 10, 15
-funkcja(2, 4) # wywołanie własnej funkcji
+funkcja(2, 4)  # wywołanie własnej funkcji
 funkcja(a, b)
 
 slowo = polacz_slowo(x, y)
 print(slowo)
 print(polacz_slowo(x, y))
-
 
 # import zazwyczaj wstawiamy na samej górze pliku
 # tutaj wstawiłem na dole, żeby pokazać różnicę pomiędzy różnymi sposobami importowania
