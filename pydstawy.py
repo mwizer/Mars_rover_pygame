@@ -89,3 +89,24 @@ print(randint(11, 20))
 import random as rn
 
 print(rn.randint(21, 30))
+print()
+
+class Kamien:
+
+    def __init__(self):
+        x = 4 # x to nie self.x
+        self.x = 5
+        self.y = 10
+        self.width = 64
+        self.height = 64
+
+
+
+class Osoba:
+
+    def przywitaj(self):
+        print("Czesc")
+
+maciek = Osoba()
+
+maciek.przywitaj()
